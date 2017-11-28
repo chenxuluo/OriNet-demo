@@ -14,7 +14,7 @@ The pretrained model can be downloaded [here](https://drive.google.com/file/d/16
 - Download the [MPI-INF-3DHP dataset](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) and [annotation file](https://drive.google.com/file/d/1R1hWjRDHB8IOQZ74RIBOWA3_m_l6llVS/view?usp=sharing) and put the h5 file in `data/mpi/`
 - Suppose that the test sequences are located in *mpi-inf-3dhp/test/*
 - In directory `src`, run `th test.lua -dataDir mpi-inf-3dhp -loadModel /path/to/your/model` to save the results in `Result.txt`
-- Go to directory`test_util` and run `evaluate.m` in matlab to get the evaluation results. Remember to change the path to your annotation files. (The evaluation codes are provided by MPI-INF-3DHP dataset)
+- Go to directory`test_util` and run `evaluate.m` in matlab to get the evaluation results. Remember to change the path to your annotation files. (The evaluation codes are provided in MPI-INF-3DHP dataset)
 
 ##### Results on MPI-INF-3DHP test set.
 * By scenes

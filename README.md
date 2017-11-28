@@ -1,8 +1,9 @@
 # OriNet-demo
 This is the testing code for OriNet on MPI-INF-3DHP test set. Traing code will be released later.
 
-We model was first pretrained on MPII and Human3.6M dataset and then fine-tuned on MPI-INF-3DHP training set *without* using any background augmentation.
-The trained model can be downloaded [here](https://drive.google.com/file/d/16UM6X5-7Drat2q1xF1BnvwslkFwsGNti/view?usp=sharing)
+The model was first pretrained on MPII and Human3.6M dataset and then fine-tuned on MPI-INF-3DHP training set *without* using any background augmentation.
+
+The pretrained model can be downloaded [here](https://drive.google.com/file/d/16UM6X5-7Drat2q1xF1BnvwslkFwsGNti/view?usp=sharing)
 
 ##### Dependencies:
 * [Torch 7](http://torch.ch/docs/getting-started.html#_)

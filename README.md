@@ -19,15 +19,15 @@ The pretrained model can be downloaded [here](https://drive.google.com/file/d/16
 ##### Results on MPI-INF-3DHP test set.
 * By scenes
 
-      | Data |  GS  | noGS | Ourdoor |  All PCK    |  All AUC 
-------| ---- | ----| ----|-------|----|---
+      | Data |  GS  | noGS | Ourdoor |  All PCK    |  All AUC
+------|------|------|------|----------|------------|-------------
  [Meta](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) | 3DHP-aug | 84.6 | 72.4 |   69.7  | 76.5 | 40.8 
  Ours | 3DHP | **90.7** | **76.3** |   **75.3**  | **81.7** | **46.2** 
 
 
 * By activities
 
-      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE 
+      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE
 ------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------|-------
  [Meta](http://gvv.mpi-inf.mpg.de/projects/VNect/) |     87.7    |   77.4   |      74.7     |      72.9     |      51.3     |  83.3  |  80.1 |   76.7  |   40.4  | 124.7 
  [Meta](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) |     86.6    |   75.3   |      74.8     |      73.7     |      52.2     |  82.1  |  77.5 |   75.7  |   38.3  |  117.6     

@@ -4,8 +4,8 @@ This is the testing code for OriNet on MPI-INF-3DHP test set. Traing code will b
 The model was first pretrained on MPII and Human3.6M dataset and then fine-tuned on MPI-INF-3DHP training set *without* using any background augmentation.
 
 The pretrained models can be downloaded here:
-* [Trained on Human3.6m](https://drive.google.com/file/d/1G7Q0wBOy24l0u63wXJeiTR97weWtHCre/view?usp=sharing)
-* [Finetuned on MPI-INF-3DHP](https://drive.google.com/file/d/1Uv47Zj1q3s9y6GY38FVCZUGumexRbRNa/view?usp=sharing)
+* [Model trained on Human3.6m](https://drive.google.com/file/d/1G7Q0wBOy24l0u63wXJeiTR97weWtHCre/view?usp=sharing)
+* [Model finetuned on MPI-INF-3DHP](https://drive.google.com/file/d/1Uv47Zj1q3s9y6GY38FVCZUGumexRbRNa/view?usp=sharing)
 
 ##### Dependencies:
 * [Torch 7](http://torch.ch/docs/getting-started.html#_)
@@ -26,6 +26,7 @@ The pretrained models can be downloaded here:
 | Ours |      95.5    |   82.3   |     89.9   |     84.6    |     66.5     |  92.0  |  93.0 |  84.3 |   47.5  | 84.5 
 
 Previous results ( for comparasion with published works)
+
 |      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE(mm)
 |------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------|-------
 | [VNet](http://gvv.mpi-inf.mpg.de/projects/VNect/) |     87.7    |   77.4   |      74.7     |      72.9     |      51.3     |  83.3  |  80.1 |   76.7  |   40.4  | 124.7 

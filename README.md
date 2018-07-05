@@ -18,7 +18,7 @@ The pretrained models can be downloaded here:
 - In directory `src`, run `th test.lua -dataDir /path/to/mpi-inf-3dhp -loadModel /path/to/your/model` to save the results in `Result.txt`
 - Go to directory`test_util` and run `evaluate.m` in matlab to get the evaluation results. Remember to change the path to your annotation files. (The evaluation codes are provided in MPI-INF-3DHP dataset)
 
-##### Results on MPI-INF-3DHP test set by activities
+#### Results on MPI-INF-3DHP test set by activities
 (Update) There has been a minor correction to the annotations for TS3 and TS4 in the test set. You should get the updated results based on this codebase.
 
 |      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE(mm)
@@ -33,4 +33,16 @@ Previous results ( for comparasion with published works)
 | [Meta](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) |     86.6    |   75.3   |      74.8     |      73.7     |      52.2     |  82.1  |  77.5 |   75.7  |   39.3  | 117.6
 | Ours |       **90.4**    |   **79.1**   |     **88.5**    |      **81.6**     |      **66.3**     |  **91.9**  |  **92.2** |   **81.8**  |   **45.2**  | **89.4**
 
+## Acknowledgements
+We thank [Alejandro Newell](https://github.com/umich-vl/pose-hg-train) et al. for their great work and repo.
 
+## Reference
+if you find our work useful in your research, please consider citing our paper:
+'''
+@inproceedings{luo2018orinet,
+  title     = {OriNet: A Fully Convolutional Network for 3D Human Pose Estimation}
+  author    = {Luo, Chenxu and Chu, Xiao and Yuille, Alan}
+  booktitle = {BMVC}
+  year      = {2018}
+}
+'''

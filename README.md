@@ -27,5 +27,5 @@ The pretrained model can be downloaded [here](https://drive.google.com/file/d/16
 (Update) There has been a minor correction to the annotations for TS3 and TS4 in the test set. Results after correction:
 
 |      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE(mm)
-|------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------|
+|------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------| -----
 | Ours |      95.5    |   82.3   |     89.9   |     84.6    |     66.5     |  92.0  |  93.0 |  84.3 |   47.5  | 84.5 

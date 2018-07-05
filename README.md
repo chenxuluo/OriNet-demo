@@ -18,14 +18,14 @@ The pretrained model can be downloaded [here](https://drive.google.com/file/d/16
 
 ##### Results on MPI-INF-3DHP test set by activities
 
-|      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC |
-|------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------|
-| [Meta](http://gvv.mpi-inf.mpg.de/projects/VNect/) |     87.7    |   77.4   |      74.7     |      72.9     |      51.3     |  83.3  |  80.1 |   76.7  |   40.4  | 
-| [Meta](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) |     86.6    |   75.3   |      74.8     |      73.7     |      52.2     |  82.1  |  77.5 |   75.7  |   39.3  | 
-| Ours |       **90.4**    |   **79.1**   |     **88.5**    |      **81.6**     |      **66.3**     |  **91.9**  |  **92.2** |   **81.8**  |   **45.2**  | 
+|      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE(mm)
+|------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------|-------
+| [Meta](http://gvv.mpi-inf.mpg.de/projects/VNect/) |     87.7    |   77.4   |      74.7     |      72.9     |      51.3     |  83.3  |  80.1 |   76.7  |   40.4  | 124.7 
+| [Meta](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) |     86.6    |   75.3   |      74.8     |      73.7     |      52.2     |  82.1  |  77.5 |   75.7  |   39.3  | 117.6
+| Ours |       **90.4**    |   **79.1**   |     **88.5**    |      **81.6**     |      **66.3**     |  **91.9**  |  **92.2** |   **81.8**  |   **45.2**  | **89.4**
 
 (Update) There has been a minor correction to the annotations for TS3 and TS4 in the test set. Results after correction:
 
-|      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC |
+|      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE(mm)
 |------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------|
-| Ours |      95.5    |   82.3   |     89.9   |     84.6    |     66.5     |  92.0  |  93.0 |  84.3 |   47.5  | 
+| Ours |      95.5    |   82.3   |     89.9   |     84.6    |     66.5     |  92.0  |  93.0 |  84.3 |   47.5  | 84.5 

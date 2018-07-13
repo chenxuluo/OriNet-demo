@@ -29,7 +29,7 @@ Previous results ( for comparasion with published works)
 
 |      | Stand/ Walk | Exercies | Sit on  Chair | Crouch/ Reach | On the  Floor | Sports | Misc. | All PCK | All AUC | MPJPE(mm)
 |------|-----------|-------|-------------|-------------|-------------|--------|-------|---------|---------|-------
-| [VNet](http://gvv.mpi-inf.mpg.de/projects/VNect/) |     87.7    |   77.4   |      74.7     |      72.9     |      51.3     |  83.3  |  80.1 |   76.7  |   40.4  | 124.7 
+| [VNect](http://gvv.mpi-inf.mpg.de/projects/VNect/) |     87.7    |   77.4   |      74.7     |      72.9     |      51.3     |  83.3  |  80.1 |   76.7  |   40.4  | 124.7 
 | [Meta](http://gvv.mpi-inf.mpg.de/3dhp-dataset/) |     86.6    |   75.3   |      74.8     |      73.7     |      52.2     |  82.1  |  77.5 |   75.7  |   39.3  | 117.6
 | Ours |       **90.4**    |   **79.1**   |     **88.5**    |      **81.6**     |      **66.3**     |  **91.9**  |  **92.2** |   **81.8**  |   **45.2**  | **89.4**
 

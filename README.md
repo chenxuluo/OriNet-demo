@@ -37,7 +37,7 @@ Previous results ( for comparasion with published works)
 We thank [Alejandro Newell](https://github.com/umich-vl/pose-hg-train) et al. for their great work and repo.
 
 ## Reference
-If you find our work useful in your research, please consider citing our paper:
+If you find our work useful in your research, please consider citing our [paper](http://bmvc2018.org/papers/0289.pdf):
 ```
 @inproceedings{luo2018orinet,
   title     = {OriNet: A Fully Convolutional Network for 3D Human Pose Estimation}

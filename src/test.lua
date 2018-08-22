@@ -8,6 +8,10 @@ model = torch.load(opt.loadModel)
 file = io.open('Result.txt','a')
 
 ntest = opt.nValidImgs
+avglen = {117.80702013, 487.78421339, 373.71816181, 117.80702013,
+       487.96079204, 373.71755575, 223.44787073, 250.85571875,
+      85.11261748, 170.2761693 , 143.43147138, 299.4442099 ,
+       227.34127406, 146.2194657 , 299.44218319, 227.34363571}
 
 model:evaluate()
 for idx = 1,ntest do
@@ -28,7 +32,6 @@ for idx = 1,ntest do
         jnt1 = pred2D[idx1]
         jnt2 = pred2D[idx2]
     
-        length = torch.norm(pts3D[idx1]-pts3D[idx2])
         l = torch.norm(jnt2 - jnt1)
         v = (jnt2 - jnt1) / l
         vp = torch.Tensor({v[2],-v[1]})
@@ -57,7 +60,7 @@ for idx = 1,ntest do
                 end
             end
         end
-        skel3D[idx2] = skel3D[idx1]:clone() + tmp:clone() / torch.norm(tmp) * length 
+        skel3D[idx2] = skel3D[idx1]:clone() + tmp:clone() / torch.norm(tmp) * avglen[id]
 
     end
         

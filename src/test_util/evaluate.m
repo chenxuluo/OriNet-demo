@@ -16,7 +16,9 @@ err = err';
 err = err(index,:);
 err = reshape(err,[17,1,size(err,2)]);
 error{1} = err(:,:,1:1143);
-error{2} = err(:,:,1144:2201);
-error{3} = err(:,:,2202:2929);
+% error{2} = err(:,:,1144:2201);
+% error{3} = err(:,:,2202:2929);
+error{2} = err(:,:,1144:2207);
+error{3} = err(:,:,2208:2935);
 
 [sequencewise_table, activitywise_table] = mpii_evaluate_errors(error,sequencewise_activity_labels);
